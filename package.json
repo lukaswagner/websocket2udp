@@ -1,8 +1,11 @@
 {
-  "name": "tcp2udp",
-  "version": "0.0.0",
-  "description": "Forwards TCP packets to UDP. Quick workaround for missing UDP support in browsers.",
-  "main": "index.js",
-  "author": "Lukas Wagner",
-  "license": "MIT"
+    "name": "websocket2udp",
+    "version": "0.0.0",
+    "description": "Forwards TCP packets to UDP. Quick workaround for missing UDP support in browsers.",
+    "main": "index.js",
+    "author": "Lukas Wagner",
+    "license": "MIT",
+    "dependencies": {
+        "ws": "^8.2.3"
+    }
 }
