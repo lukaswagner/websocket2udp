@@ -4,6 +4,15 @@ Forwards WebSocket packets to UDP. Quick workaround for missing UDP support in b
 
 ## Usage
 
+Start proxy:
+
+```bash
+npm i
+node index.js
+```
+
+Send data from browser:
+
 ```js
 // open connection
 const socket = new WebSocket('ws://localhost:3000');
